@@ -9,19 +9,23 @@ https://drive.google.com/file/d/1yT_tqJ1DU5EsFO_cCk5Ahj38Oz5VZL2b/view?usp=shari
 
 ### Para compilar o programa:
 gcc -Wall -o shell shell.c
+
 </br>
 </br>
 ### Para rodar a aplicação
 Comando simples
-- ./shell "comando"
+```
+./shell "comando"
+```
 
 Exemplo:
-
-- *./shell ls*
+```
+*./shell ls*
+```
 </br>
 Para utilizar o pipe, para encadear comandos simples, utilizar: "|"
 
 Exemplo:
-
+```
 - *./shell ls "|" grep "txt"*
-
+```
