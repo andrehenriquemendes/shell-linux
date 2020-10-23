@@ -20,12 +20,12 @@ Comando simples
 
 Exemplo:
 ```
-*./shell ls*
+./shell ls
 ```
 </br>
 Para utilizar o pipe, para encadear comandos simples, utilizar: "|"
 
 Exemplo:
 ```
-- *./shell ls "|" grep "txt"*
+./shell ls "|" grep "txt"
 ```
